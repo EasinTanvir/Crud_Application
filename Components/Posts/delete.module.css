@@ -1,0 +1,39 @@
+.delete{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    background-color: orangered;
+    color: white;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px  9px black;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.btn button:nth-child(1){
+    color: white;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 7px;
+}
+
+.btn button:nth-child(2){
+    color: white;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px 7px;
+    margin: 0px 15px;
+   
+}
+
+.btn button:hover{
+    color: gray;
+}

@@ -1,0 +1,18 @@
+.btn {
+    margin-left: 10px;
+}
+
+.btn button{
+    background-color: red;
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+   
+}
+
+
+.btn button:hover{
+    color: gray;
+}
