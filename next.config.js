@@ -9,7 +9,9 @@ module.exports=(phase)=>{
     username:'tanvir',
     password:'tanvir',
     clusters:'cluster0',
-    server:'stream'
+    server:'stream',
+    GOOGLE_CLIENT_ID:'287318004412-hoovft07nfduuplp0g4hkf4gq13mhfqj.apps.googleusercontent.com',
+    GOOGLE_CLIENT_SECRET:'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',
   }
 
  }
@@ -20,7 +22,9 @@ return {
     username:'tanvir',
     password:'tanvir',
     clusters:'cluster0',
-    server:'Prostream'
+    server:'Prostream',
+    GOOGLE_CLIENT_ID:'287318004412-hoovft07nfduuplp0g4hkf4gq13mhfqj.apps.googleusercontent.com',
+    GOOGLE_CLIENT_SECRET:'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',
   }
 
  }

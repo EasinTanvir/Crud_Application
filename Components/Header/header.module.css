@@ -1,5 +1,5 @@
 .main {
-    background-color: crimson;
+    background-color: #1B065E;
 }
 
 .header{
@@ -14,4 +14,17 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     
+}
+
+.btn button{
+    margin-left: 10px;
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 6px;
+}
+
+.btn button:hover{
+    color: gray;
 }

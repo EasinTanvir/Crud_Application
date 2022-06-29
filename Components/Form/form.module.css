@@ -1,0 +1,107 @@
+.main {
+    background: radial-gradient(#B144AF,#ED419B,#CB43A5);
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.form {
+    margin: 40px auto;
+    width: 370px;
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
+    padding: 0px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px black;
+    position: relative;
+}
+.form hr{
+    margin: 5px 0px;
+}
+
+.text h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+   
+}
+
+.btn{
+
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+   
+   
+}
+.btn button {
+    background-color: red;
+    color: white;
+    width: 40%;
+    padding: 10px 0px;
+   border-radius: 4px;
+    font-weight: bold;
+   
+   
+}
+
+
+.btn button:hover{
+    color: gray;
+}
+
+.login{
+    margin-top: 24px;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 9px 0px;    
+    border: 1px solid gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: none;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+
+.submit{
+    margin-top: 10px;
+}
+.submit button{
+    width: 100%;
+    padding: 8px 0px;
+    background: radial-gradient(#B144AF,#ED419B);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.submit button:hover{
+    color: gray;
+}
+
+.btn button:nth-child(2){
+    background-color: #5A0001;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+.btn button:hover{
+    color: gray;
+}
+
+.btn i {
+    font-size: 15px;
+}
+
+

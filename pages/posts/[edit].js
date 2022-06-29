@@ -1,4 +1,5 @@
 import { ObjectId } from 'mongodb'
+import {getSession} from 'next-auth/react'
 import React from 'react'
 import helper from '../../Components/Helper/helper'
 import EditPost from '../../Components/Posts/EditPost'
@@ -15,6 +16,17 @@ export default function Edit({list}) {
 }
 
 export async function getServerSideProps(context){
+
+  const session =await getSession({req:context.req})
+
+  if(!session){
+    return{
+      redirect:{
+        destination:'/',
+        parmanent:false
+      }
+    }
+  }
 
   const {params} = context
   const userId=params.edit
