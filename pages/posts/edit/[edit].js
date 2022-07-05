@@ -1,8 +1,8 @@
 import { ObjectId } from 'mongodb'
 import {getSession} from 'next-auth/react'
 import React from 'react'
-import helper from '../../Components/Helper/helper'
-import EditPost from '../../Components/Posts/EditPost'
+import helper from '../../../Components/Helper/helper'
+import EditPost from '../../../Components/Posts/EditPost'
 
 export default function Edit({list}) {
  

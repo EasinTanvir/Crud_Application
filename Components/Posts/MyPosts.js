@@ -2,7 +2,10 @@ import Link from 'next/link'
 import Item from './Item'
 import classes from './posts.module.css'
 
-export default function MyPosts({list}) {
+export default function MyPosts(props) {
+  const {list} = props
+  
+  
   return (
    <div>
      <div>
@@ -14,3 +17,5 @@ export default function MyPosts({list}) {
    </div>
   )
 }
+
+

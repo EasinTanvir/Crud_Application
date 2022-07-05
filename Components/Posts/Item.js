@@ -2,7 +2,11 @@ import Link from 'next/link'
 import classes from './item.module.css'
 
 export default function Item(props) {
+
+
+ 
     const {title,description,id} = props
+   
   return (
     <div className={classes.main}>
         <div  className={classes.item}>
@@ -12,10 +16,11 @@ export default function Item(props) {
       </div>
     
     <div className={classes.btn}>
-        <Link href={`/posts/${id}`}><a><button>Edit</button></a></Link>
+        <Link href={`/posts/edit/${id}`}><a><button>Edit</button></a></Link>
         <Link href={`/posts/delete/${id}`}><button>Delete</button></Link>        
     </div>
     </div>
     </div>
   )
 }
+
